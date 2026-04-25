@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Prime Clean Services</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7f9;
+  color: #333;
+}
+
+header {
+  background: #0a2540;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #133b63;
+}
+
+nav a {
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background: #0a2540;
+}
+
+.hero {
+  background: url('https://images.unsplash.com/photo-1581578731548-c64695cc6952') no-repeat center/cover;
+  height: 400px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+  background: rgba(0,0,0,0.6);
+  padding: 15px;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.contact {
+  background: #133b63;
+  color: white;
+}
+
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  padding: 12px 25px;
+  background: #0a2540;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #0a2540;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Prime Clean Services</h1>
+  <p>Professional Cleaning You Can Trust</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+  <h1>We Make Your Space Shine ✨</h1>
+</div>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Home Cleaning</div>
+    <div class="card">Office Cleaning</div>
+    <div class="card">Deep Cleaning</div>
+    <div class="card">Move-In/Out Cleaning</div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Why Choose Us?</h2>
+  <p>✔ Trusted Professionals</p>
+  <p>✔ Affordable Prices</p>
+  <p>✔ Fast & Reliable</p>
+</section>
+
+<section class="section contact" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="email" placeholder="Your Email" required><br>
+    <textarea placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Phone: 0785405253</p>
+</section>
+
+<footer>
+  <p>© 2026 Prime Clean Services</p>
+</footer>
+
+</body>
+</html>
